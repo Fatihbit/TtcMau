@@ -1,0 +1,105 @@
+﻿@page "/lading"
+@inject LadingViewModel LadingViewModel
+@inject HttpClient HttpClient
+@using System.Text.Json
+
+<h3>Add Lading</h3>
+
+<button @onclick="LadingViewModel.LoadDataCommand.Execute">Load Data</button>
+
+<EditForm Model="LadingViewModel">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Product:</label>
+        <InputSelect @bind-Value="LadingViewModel.SelectedProduct">
+            <option value="">Select a product</option>
+            @if (LadingViewModel.Products != null)
+            {
+                @foreach (var product in LadingViewModel.Products)
+                {
+                    if (product.TryGetProperty("productName", out var productName))
+                    {
+                        <option value="@productName.GetString()">@productName.GetString()</option>
+                    }
+                }
+            }
+        </InputSelect>
+    </div>
+
+    <div>
+        <label>Terminal:</label>
+        <InputSelect @bind-Value="LadingViewModel.SelectedTerminal">
+            <option value="">Select a terminal</option>
+            @if (LadingViewModel.Terminals != null)
+            {
+                @foreach (var terminal in LadingViewModel.Terminals)
+                {
+                    if (terminal.TryGetProperty("terminalName", out var terminalName))
+                    {
+                        <option value="@terminalName.GetString()">@terminalName.GetString()</option>
+                    }
+                }
+            }
+        </InputSelect>
+    </div>
+
+    <div>
+        <label>Ship Name:</label>
+        <InputText @bind-Value="LadingViewModel.ShipName" />
+        <button type="button" @onclick="SetShipName">Auto Fill Ship Name</button>
+    </div>
+
+    <div>
+        <label>Hoeveelheid:</label>
+        <InputNumber @bind-Value="LadingViewModel.Hoeveelheid" />
+    </div>
+
+    <div>
+        <label>Datum:</label>
+        <InputDate @bind-Value="LadingViewModel.Datum" />
+    </div>
+
+   
+
+
+
+    <button @onclick="LadingViewModel.SubmitLadingCommand.Execute">Submit</button>
+
+    @if (!string.IsNullOrEmpty(LadingViewModel.Message))
+    {
+        <p>@LadingViewModel.Message</p>
+    }
+</EditForm>
+
+@code {
+    private async Task SetShipName()
+    {
+        try
+        {
+            var response = await HttpClient.GetStringAsync("https://localhost:7143/api/Account/me");
+            using (JsonDocument doc = JsonDocument.Parse(response))
+            {
+                var root = doc.RootElement;
+                if (root.TryGetProperty("shipName", out JsonElement shipNameElement))
+                {
+                    LadingViewModel.ShipName = shipNameElement.GetString();
+                }
+                else
+                {
+                    LadingViewModel.ShipName = "Unknown Ship";
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            LadingViewModel.Message = $"Error fetching ship name: {ex.Message}";
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LadingViewModel.LoadDataCommand.ExecuteAsync(null);
+    }
+}

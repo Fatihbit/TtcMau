@@ -1,0 +1,40 @@
+﻿@page "/shipstatus"
+@inject TtcMau.ViewModels.ShipStatusViewModel ViewModel
+
+<h3>Ship Lading Status</h3>
+
+<button @onclick="ViewModel.LoadLadingsAsync">Load Ladings</button>
+
+@if (ViewModel.IsLoading)
+{
+    <p>Loading...</p>
+}
+else if (ViewModel.Ladings.Any())
+{
+    <ul>
+        @foreach (var lading in ViewModel.Ladings)
+        {
+            <li>
+                <p>Product: @lading.ProductName</p>
+                <p>Ship: @lading.ShipName</p>
+                <p>Terminal: @lading.TerminalName</p>
+                <p>Hoeveelheid: @lading.Hoeveelheid</p>
+                <p>Datum: @lading.Datum</p>
+                <p>Tijd: @lading.Tijd</p>
+                <p>Status: @(lading.Status.HasValue ? (lading.Status.Value ? "Approved" : "Rejected") : "Pending")</p>
+                <p>Reason: @lading.Reason</p>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No ladings available.</p>
+}
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await ViewModel.LoadLadingsAsync();
+    }
+}

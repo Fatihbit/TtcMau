@@ -1,0 +1,782 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code\\c#\\TtcMau\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Tooling.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\pages\\lading.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\pages\\lading.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\pages\\shipsearch.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\pages\\shipsearch.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\pages\\mapcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\pages\\mapcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\wwwroot\\js\\map.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\wwwroot\\js\\map.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\pages\\registership.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\pages\\registership.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\viewmodel\\shipstatusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\viewmodel\\shipstatusviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\viewmodel\\shipsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\viewmodel\\shipsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\pages\\profile.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\viewmodel\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\viewmodel\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\pages\\overview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\pages\\overview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\dtos\\ladingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\dtos\\ladingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\dtos\\veiligheidschecklistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\dtos\\veiligheidschecklistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\viewmodel\\overviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\viewmodel\\overviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\pages\\registerterminal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\pages\\registerterminal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\viewmodel\\terminalregistrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\viewmodel\\terminalregistrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\viewmodel\\shipregistrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\viewmodel\\shipregistrationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\pages\\registrationsuccess.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\pages\\registrationsuccess.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\pages\\shipstatuspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\pages\\shipstatuspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\viewmodel\\statusladingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\viewmodel\\statusladingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\pages\\veiligheidschecklistpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\pages\\veiligheidschecklistpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\viewmodel\\veiligheidschecklistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\viewmodel\\veiligheidschecklistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}|Code",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}|Code"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Fatih\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\ttcmau.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\ttcmau.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\wwwroot\\geolocation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\wwwroot\\geolocation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TSServer\\lib.dom.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\wwwroot\\favicon.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\components\\pages\\statusladingpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\components\\pages\\statusladingpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\dtos\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\dtos\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\dtos\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\dtos\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\dtos\\terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\dtos\\terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\code\\c#\\TtcMau\\TtcMau\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TtcMau\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\code\\c#\\TtcMau\\TtcMau\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TtcMau\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\viewmodel\\ladingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\viewmodel\\ladingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\code\\c#\\TtcMau\\TtcMau\\obj\\Debug\\net8.0-android\\__Microsoft.Android.Resource.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TtcMau\\obj\\Debug\\net8.0-android\\__Microsoft.Android.Resource.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|d:\\code\\c#\\ttcmau\\ttcmau\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{42723CC7-879B-4603-8621-6D956F0D5854}|TtcMau\\TtcMau.csproj|solutionrelative:ttcmau\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Xamarin.Android.Tooling.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Tooling.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Tooling.targets",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAIwGMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-30T09:40:40.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "TtcMau\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "TtcMau\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-06-30T09:37:27.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "map.js",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\wwwroot\\js\\map.js",
+              "RelativeDocumentMoniker": "TtcMau\\wwwroot\\js\\map.js",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\wwwroot\\js\\map.js",
+              "RelativeToolTip": "TtcMau\\wwwroot\\js\\map.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-30T08:01:25.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "TtcMau\\MauiProgram.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\MauiProgram.cs",
+              "RelativeToolTip": "TtcMau\\MauiProgram.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:28:30.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LadingDto.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Dtos\\LadingDto.cs",
+              "RelativeDocumentMoniker": "TtcMau\\Dtos\\LadingDto.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Dtos\\LadingDto.cs",
+              "RelativeToolTip": "TtcMau\\Dtos\\LadingDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:01:52.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShipStatusViewModel.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\ShipStatusViewModel.cs",
+              "RelativeDocumentMoniker": "TtcMau\\ViewModel\\ShipStatusViewModel.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\ShipStatusViewModel.cs",
+              "RelativeToolTip": "TtcMau\\ViewModel\\ShipStatusViewModel.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAADwv1EAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T18:11:04.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterShip.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\RegisterShip.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Pages\\RegisterShip.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\RegisterShip.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Pages\\RegisterShip.razor",
+              "ViewState": "AQIAABwAAAAAAAAAAADwvzEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T09:52:48.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShipSearch.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\ShipSearch.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Pages\\ShipSearch.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\ShipSearch.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Pages\\ShipSearch.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T07:50:43.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lading.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\Lading.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Pages\\Lading.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\Lading.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Pages\\Lading.razor",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvz8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T14:13:01.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MapComponent.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\MapComponent.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Pages\\MapComponent.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\MapComponent.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Pages\\MapComponent.razor",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvxYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T08:03:06.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "TtcMau\\wwwroot\\index.html",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\wwwroot\\index.html",
+              "RelativeToolTip": "TtcMau\\wwwroot\\index.html",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-28T19:50:45.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VeiligheidsChecklistDTO.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Dtos\\VeiligheidsChecklistDTO.cs",
+              "RelativeDocumentMoniker": "TtcMau\\Dtos\\VeiligheidsChecklistDTO.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Dtos\\VeiligheidsChecklistDTO.cs",
+              "RelativeToolTip": "TtcMau\\Dtos\\VeiligheidsChecklistDTO.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAxwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T19:17:24.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Platforms\\Windows\\App.xaml",
+              "RelativeDocumentMoniker": "TtcMau\\Platforms\\Windows\\App.xaml",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Platforms\\Windows\\App.xaml",
+              "RelativeToolTip": "TtcMau\\Platforms\\Windows\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-28T20:38:10.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAADkAAAAAAAAAAIBZwEoAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T20:28:42.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShipSearchViewModel.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\ShipSearchViewModel.cs",
+              "RelativeDocumentMoniker": "TtcMau\\ViewModel\\ShipSearchViewModel.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\ShipSearchViewModel.cs",
+              "RelativeToolTip": "TtcMau\\ViewModel\\ShipSearchViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:50:11.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Overview.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\Overview.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Pages\\Overview.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\Overview.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Pages\\Overview.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBZwA4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T10:36:37.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "TtcMau\\ViewModel\\ProfileViewModel.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\ProfileViewModel.cs",
+              "RelativeToolTip": "TtcMau\\ViewModel\\ProfileViewModel.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAADwv6MAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:46:31.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Profile.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\Profile.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Pages\\Profile.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\Profile.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Pages\\Profile.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T20:46:46.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Pages\\Login.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Pages\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T20:28:19.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OverviewViewModel.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\OverviewViewModel.cs",
+              "RelativeDocumentMoniker": "TtcMau\\ViewModel\\OverviewViewModel.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\OverviewViewModel.cs",
+              "RelativeToolTip": "TtcMau\\ViewModel\\OverviewViewModel.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAIwBkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T10:36:17.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ShipRegistrationViewModel.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\ShipRegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "TtcMau\\ViewModel\\ShipRegistrationViewModel.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\ShipRegistrationViewModel.cs",
+              "RelativeToolTip": "TtcMau\\ViewModel\\ShipRegistrationViewModel.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAADwvzYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T09:52:27.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TerminalRegistrationViewModel.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\TerminalRegistrationViewModel.cs",
+              "RelativeDocumentMoniker": "TtcMau\\ViewModel\\TerminalRegistrationViewModel.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\TerminalRegistrationViewModel.cs",
+              "RelativeToolTip": "TtcMau\\ViewModel\\TerminalRegistrationViewModel.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAADwvz0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T10:00:03.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterTerminal.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\RegisterTerminal.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Pages\\RegisterTerminal.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\RegisterTerminal.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Pages\\RegisterTerminal.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T10:00:24.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RegistrationSuccess.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\RegistrationSuccess.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Pages\\RegistrationSuccess.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\RegistrationSuccess.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Pages\\RegistrationSuccess.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T10:01:18.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ShipStatusPage.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\ShipStatusPage.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Pages\\ShipStatusPage.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\ShipStatusPage.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Pages\\ShipStatusPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T18:12:44.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StatusLadingViewModel.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\StatusLadingViewModel.cs",
+              "RelativeDocumentMoniker": "TtcMau\\ViewModel\\StatusLadingViewModel.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\StatusLadingViewModel.cs",
+              "RelativeToolTip": "TtcMau\\ViewModel\\StatusLadingViewModel.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwGEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T18:16:50.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\MainPage.xaml",
+              "RelativeDocumentMoniker": "TtcMau\\MainPage.xaml",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\MainPage.xaml",
+              "RelativeToolTip": "TtcMau\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-28T19:55:55.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "VeiligheidsChecklistViewModel.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\VeiligheidsChecklistViewModel.cs",
+              "RelativeDocumentMoniker": "TtcMau\\ViewModel\\VeiligheidsChecklistViewModel.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\VeiligheidsChecklistViewModel.cs",
+              "RelativeToolTip": "TtcMau\\ViewModel\\VeiligheidsChecklistViewModel.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAADwv68AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T18:41:51.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VeiligheidsChecklistPage.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\VeiligheidsChecklistPage.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Pages\\VeiligheidsChecklistPage.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\VeiligheidsChecklistPage.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Pages\\VeiligheidsChecklistPage.razor",
+              "ViewState": "AQIAAIwAAAAAAAAAAADwv6EAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T18:43:10.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "TtcMau\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "TtcMau\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAADwvz0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:27:44.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "favicon.png - PNG [32x32, 32 bit, PNG]",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\wwwroot\\favicon.png",
+              "RelativeDocumentMoniker": "TtcMau\\wwwroot\\favicon.png",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\wwwroot\\favicon.png - PNG [32x32, 32 bit, PNG]",
+              "RelativeToolTip": "TtcMau\\wwwroot\\favicon.png - PNG [32x32, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-28T20:10:03.747Z",
+              "EditorCaption": " - PNG [32x32, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TtcMau.csproj",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\TtcMau.csproj",
+              "RelativeDocumentMoniker": "TtcMau\\TtcMau.csproj",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\TtcMau.csproj",
+              "RelativeToolTip": "TtcMau\\TtcMau.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-28T20:20:22.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\Fatih\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "ToolTip": "C:\\Users\\Fatih\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-28T20:24:16.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TtcMau\\Platforms\\Windows\\App.xaml.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeToolTip": "TtcMau\\Platforms\\Windows\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T20:40:46.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "TtcMau\\Platforms\\Windows\\Package.appxmanifest",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeToolTip": "TtcMau\\Platforms\\Windows\\Package.appxmanifest",
+              "ViewState": "AQIAABkAAAAAAAAAAAAuwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2024-06-28T20:45:41.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "app.manifest",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Platforms\\Windows\\app.manifest",
+              "RelativeDocumentMoniker": "TtcMau\\Platforms\\Windows\\app.manifest",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Platforms\\Windows\\app.manifest",
+              "RelativeToolTip": "TtcMau\\Platforms\\Windows\\app.manifest",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-06-28T20:38:12.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "lib.dom.d.ts",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TSServer\\lib.dom.d.ts",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TSServer\\lib.dom.d.ts",
+              "ViewState": "AQIAAKJqAAAAAAAAAADgv85qAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-28T20:10:46.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "geolocation.js",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\wwwroot\\geolocation.js",
+              "RelativeDocumentMoniker": "TtcMau\\wwwroot\\geolocation.js",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\wwwroot\\geolocation.js",
+              "RelativeToolTip": "TtcMau\\wwwroot\\geolocation.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-28T19:51:32.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "StatusLadingPage.razor",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\StatusLadingPage.razor",
+              "RelativeDocumentMoniker": "TtcMau\\Components\\Pages\\StatusLadingPage.razor",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Components\\Pages\\StatusLadingPage.razor",
+              "RelativeToolTip": "TtcMau\\Components\\Pages\\StatusLadingPage.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBpwDoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-26T18:17:34.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Dtos\\Product.cs",
+              "RelativeDocumentMoniker": "TtcMau\\Dtos\\Product.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Dtos\\Product.cs",
+              "RelativeToolTip": "TtcMau\\Dtos\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:52:10.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Dtos\\Profile.cs",
+              "RelativeDocumentMoniker": "TtcMau\\Dtos\\Profile.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Dtos\\Profile.cs",
+              "RelativeToolTip": "TtcMau\\Dtos\\Profile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:50:23.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Terminal.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\Dtos\\Terminal.cs",
+              "RelativeDocumentMoniker": "TtcMau\\Dtos\\Terminal.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\Dtos\\Terminal.cs",
+              "RelativeToolTip": "TtcMau\\Dtos\\Terminal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:51:40.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "App.g.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.cs",
+              "RelativeDocumentMoniker": "TtcMau\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.cs",
+              "RelativeToolTip": "TtcMau\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T19:02:14.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LadingViewModel.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\LadingViewModel.cs",
+              "RelativeDocumentMoniker": "TtcMau\\ViewModel\\LadingViewModel.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\ViewModel\\LadingViewModel.cs",
+              "RelativeToolTip": "TtcMau\\ViewModel\\LadingViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:12:34.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "TtcMau\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "TtcMau\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAewEoAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:35:02.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "__Microsoft.Android.Resource.Designer.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\obj\\Debug\\net8.0-android\\__Microsoft.Android.Resource.Designer.cs",
+              "RelativeDocumentMoniker": "TtcMau\\obj\\Debug\\net8.0-android\\__Microsoft.Android.Resource.Designer.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\obj\\Debug\\net8.0-android\\__Microsoft.Android.Resource.Designer.cs",
+              "RelativeToolTip": "TtcMau\\obj\\Debug\\net8.0-android\\__Microsoft.Android.Resource.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:08:57.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TtcMau\\App.xaml.cs",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\App.xaml.cs",
+              "RelativeToolTip": "TtcMau\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T20:39:14.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\code\\c#\\TtcMau\\TtcMau\\App.xaml",
+              "RelativeDocumentMoniker": "TtcMau\\App.xaml",
+              "ToolTip": "D:\\code\\c#\\TtcMau\\TtcMau\\App.xaml",
+              "RelativeToolTip": "TtcMau\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-25T20:39:11.75Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

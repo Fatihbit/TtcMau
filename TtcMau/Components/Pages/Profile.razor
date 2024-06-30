@@ -1,0 +1,56 @@
+﻿@page "/profile"
+@inject ProfileViewModel ViewModel
+
+<h3>Profile</h3>
+
+<div>
+    <button @onclick="ViewModel.LoadProfileCommand.Execute">Load Profile</button>
+    <button @onclick="ViewModel.UpdateLocationCommand.Execute">Update Location</button>
+</div>
+
+<div>
+    <h4>Profile Information</h4>
+    @if (ViewModel.IsShip)
+    {
+        <div>
+            <p>Ship Name: @ViewModel.UserName</p>
+            <p>Email: @ViewModel.Email</p>
+            <p>Type: @ViewModel.Type</p>
+            <p>UESI: @ViewModel.UniekEuropeesScheepsidentificatienummer</p>
+            <p>Location: @ViewModel.Location</p>
+        </div>
+    }
+    else
+    {
+        <div>
+            <p>Terminal Name: @ViewModel.UserName</p>
+            <p>Email: @ViewModel.Email</p>
+            <p>Location: @ViewModel.Location</p>
+        </div>
+    }
+</div>
+
+<div>
+    <h4>Location</h4>
+    <p>Latitude: @ViewModel.Latitude</p>
+    <p>Longitude: @ViewModel.Longitude</p>
+</div>
+
+@code {
+    protected override void OnInitialized()
+    {
+        ViewModel.PropertyChanged += (sender, args) =>
+        {
+            if (args.PropertyName == nameof(ViewModel.UserName) ||
+                args.PropertyName == nameof(ViewModel.Email) ||
+                args.PropertyName == nameof(ViewModel.Type) ||
+                args.PropertyName == nameof(ViewModel.UniekEuropeesScheepsidentificatienummer) ||
+                args.PropertyName == nameof(ViewModel.Location) ||
+                args.PropertyName == nameof(ViewModel.Latitude) ||
+                args.PropertyName == nameof(ViewModel.Longitude))
+            {
+                InvokeAsync(StateHasChanged);
+            }
+        };
+    }
+}

@@ -1,0 +1,59 @@
+﻿@page "/status-lading"
+@using System.Text.Json
+@inject StatusLadingViewModel StatusLadingViewModel
+@inject HttpClient HttpClient
+
+<h3>Lading Approval</h3>
+
+<button @onclick="LoadLadings">Load Ladings</button>
+
+@if (!string.IsNullOrEmpty(StatusLadingViewModel.ErrorMessage))
+{
+    <p>@StatusLadingViewModel.ErrorMessage</p>
+}
+
+@if (StatusLadingViewModel.Ladings != null && StatusLadingViewModel.Ladings.Any())
+{
+    <ul>
+        @foreach (var lading in StatusLadingViewModel.Ladings)
+        {
+            <li>
+                <p>Product: @lading.GetProperty("productName").GetString()</p>
+                <p>Ship: @lading.GetProperty("shipName").GetString()</p>
+                <p>Terminal: @lading.GetProperty("terminalName").GetString()</p>
+                <p>Hoeveelheid: @lading.GetProperty("hoeveelheid").GetInt32()</p>
+                <p>Datum: @(lading.TryGetProperty("datum", out var datum) && datum.ValueKind != JsonValueKind.Null ? datum.GetDateTime().ToString("yyyy-MM-dd") : "N/A")</p>
+                <p>Tijd: @(lading.TryGetProperty("tijd", out var tijd) && tijd.ValueKind != JsonValueKind.Null ? tijd.GetString() : "N/A")</p>
+                <p>Reason: <InputText @bind-Value="StatusLadingViewModel.Reason"></InputText></p>
+                <button @onclick="@(async () => await ApproveLading(lading.GetProperty("ladingId").GetInt32()))">Approve</button>
+                <button @onclick="@(async () => await RejectLading(lading.GetProperty("ladingId").GetInt32()))">Reject</button>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No ladings available.</p>
+}
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadLadings();
+    }
+
+    private async Task LoadLadings()
+    {
+        await StatusLadingViewModel.LoadLadingsAsync();
+    }
+
+    private async Task ApproveLading(int ladingId)
+    {
+        await StatusLadingViewModel.ApproveLadingCommand.ExecuteAsync(ladingId);
+    }
+
+    private async Task RejectLading(int ladingId)
+    {
+        await StatusLadingViewModel.RejectLadingCommand.ExecuteAsync(ladingId);
+    }
+}

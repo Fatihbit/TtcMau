@@ -1,0 +1,80 @@
+﻿@page "/overview"
+@inject OverviewViewModel ViewModel
+
+<h3>Overview</h3>
+
+<button @onclick="LoadData">Load Data</button>
+
+@if (ViewModel.Ladings != null && ViewModel.Ladings.Any())
+{
+    <h4>Ladings</h4>
+    <ul>
+        @foreach (var lading in ViewModel.Ladings)
+        {
+            <li>
+                <p><strong>Lading ID:</strong> @lading.LadingId</p>
+                <p><strong>Ship Name:</strong> @lading.ShipName</p>
+                <p><strong>Terminal Name:</strong> @lading.TerminalName</p>
+                <p><strong>Product Name:</strong> @lading.ProductName</p>
+                <p><strong>Datum:</strong> @lading.Datum</p>
+                <p><strong>Tijd:</strong> @lading.Tijd</p>
+                <p><strong>Hoeveelheid:</strong> @lading.Hoeveelheid</p>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No ladings found.</p>
+}
+
+@if (ViewModel.Checklists != null && ViewModel.Checklists.Any())
+{
+    <h4>Veiligheids Checklists</h4>
+    <ul>
+        @foreach (var checklist in ViewModel.Checklists)
+        {
+            <li>
+                <p><strong>VeiligheidsChecklist ID:</strong> @checklist.VeiligheidsChecklistId</p>
+                <p><strong>Lading ID:</strong> @checklist.LadingId</p>
+                <p><strong>Is Schip Goed Gemeerd:</strong> @checklist.IsSchipGoedGemeerd</p>
+                <p><strong>Is Doeltreffende Verlichting Verzekerd:</strong> @checklist.IsDoeltreffendeVerlichtingVerzekerd</p>
+                <p><strong>Is Nooduitgang Vrij:</strong> @checklist.IsNooduitgangVrij</p>
+                <p><strong>Is Schip Wal Verbinding Veilig:</strong> @checklist.IsSchipWalVerbindingVeilig</p>
+                <p><strong>Zijn Laadarmen Vrij Beweegbaar:</strong> @checklist.ZijnLaadarmenVrijBeweegbaar</p>
+                <p><strong>Zijn Aansluitingen Afgeblind:</strong> @checklist.ZijnAansluitingenAfgeblind</p>
+                <p><strong>Zijn Leidingen In Goede Staat:</strong> @checklist.ZijnLeidingenInGoedeStaat</p>
+                <p><strong>Zijn Alle Kleppen Gecontroleerd:</strong> @checklist.ZijnAlleKleppenGecontroleerd</p>
+                <p><strong>Is Alarm Noodstop Bekend:</strong> @checklist.IsAlarmNoodstopBekend</p>
+                <p><strong>Zijn Brandblus Apparaten Bedrijfsklaar:</strong> @checklist.ZijnBrandblusApparatenBedrijfsklaar</p>
+                <p><strong>Zijn Verwarmingsapparaten Uitgeschakeld:</strong> @checklist.ZijnVerwarmingsapparatenUitgeschakeld</p>
+                <p><strong>Is Rookverbod Afgekondigd:</strong> @checklist.IsRookverbodAfgekondigd</p>
+                <p><strong>Zijn Radar En Andere Elektrische Apparaten Uit:</strong> @checklist.ZijnRadarEnAndereElektrischeApparatenUit</p>
+                <p><strong>Zijn Deuren En Ramen Gesloten:</strong> @checklist.ZijnDeurenEnRamenGesloten</p>
+                <p><strong>Is Overvulbeveiliging Beproefd:</strong> @checklist.IsOvervulbeveiligingBeproefd</p>
+                <p><strong>Is Uitschakeling Pomp Vanaf Wal Mogelijk:</strong> @checklist.IsUitschakelingPompVanafWalMogelijk</p>
+                <p><strong>Is Gasafvoerleiding Correct Aangesloten:</strong> @checklist.IsGasafvoerleidingCorrectAangesloten</p>
+                <p><strong>Is Druk Gasterugvoerleiding Veilig:</strong> @checklist.IsDrukGasterugvoerleidingVeilig</p>
+                <p><strong>Is Vlamkerende Inrichting Aanwezig:</strong> @checklist.IsVlamkerendeInrichtingAanwezig</p>
+                <p><strong>Is Verblijftijd Vastgesteld En Gedocumenteerd:</strong> @checklist.IsVerblijftijdVastgesteldEnGedocumenteerd</p>
+                <p><strong>Is Laadtemperatuur Binnen Toegestane Bandbreedte:</strong> @checklist.IsLaadtemperatuurBinnenToegestaneBandbreedte</p>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No veiligheid checklists found.</p>
+}
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await ViewModel.LoadDataAsync();
+    }
+
+    private async Task LoadData()
+    {
+        await ViewModel.LoadDataAsync();
+    }
+}

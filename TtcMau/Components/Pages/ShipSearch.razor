@@ -1,0 +1,44 @@
+﻿@page "/shipSearch"
+@inject ShipSearchViewModel ViewModel
+
+<h3>Ship Search</h3>
+
+<div>
+    <label for="shipName">Ship Name:</label>
+    <input id="shipName" @bind="ViewModel.ShipName" />
+    <button @onclick="ViewModel.SearchShipCommand.Execute">Search</button>
+</div>
+
+@if (ViewModel.ShipDetails != null)
+{
+    <div>
+        <h4>Ship Details</h4>
+        <p><strong>Ship Name:</strong> @ViewModel.ShipDetails.ShipName</p>
+        <p><strong>Email:</strong> @ViewModel.ShipDetails.Email</p>
+        <p><strong>Type:</strong> @ViewModel.ShipDetails.Type</p>
+        <p><strong>UESI:</strong> @ViewModel.ShipDetails.UniekEuropeesScheepsidentificatienummer</p>
+        <p><strong>Location:</strong> @ViewModel.ShipDetails.Location</p>
+    </div>
+
+    @if (double.TryParse(ViewModel.ShipDetails.Location.Split(',')[0], out var lat) && double.TryParse(ViewModel.ShipDetails.Location.Split(',')[1], out var lng))
+    {
+        <MapComponent Latitude="lat" Longitude="lng" />
+    }
+}
+else
+{
+    <p>No ship details found. Please enter a valid ship name.</p>
+}
+
+@code {
+    protected override void OnInitialized()
+    {
+        ViewModel.PropertyChanged += (sender, args) =>
+        {
+            if (args.PropertyName == nameof(ViewModel.ShipDetails))
+            {
+                InvokeAsync(StateHasChanged);
+            }
+        };
+    }
+}

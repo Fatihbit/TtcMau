@@ -1,0 +1,24 @@
+# Ignore build and debug folders
+bin/
+obj/
+
+# Ignore Visual Studio temporary files, build results, and
+# build directories
+*.log
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore .NET Core project folders
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db

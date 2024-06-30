@@ -1,0 +1,161 @@
+﻿@page "/veiligheidschecklist"
+@inject VeiligheidsChecklistViewModel ViewModel
+
+<h3>Veiligheidschecklist</h3>
+
+<EditForm Model="ViewModel" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Lading ID:</label>
+        <InputNumber @bind-Value="ViewModel.LadingId" />
+        <button type="button" @onclick="LoadLadingDetails">Load Lading Details</button>
+    </div>
+
+    @if (ViewModel.CurrentLading != null)
+    {
+        <div>
+            <h4>Lading Details</h4>
+            <p><strong>Ship Name:</strong> @ViewModel.CurrentLading.ShipName</p>
+            <p><strong>Terminal Name:</strong> @ViewModel.CurrentLading.TerminalName</p>
+            <p><strong>Product Name:</strong> @ViewModel.CurrentLading.ProductName</p>
+            <p><strong>Hoeveelheid:</strong> @ViewModel.CurrentLading.Hoeveelheid</p>
+            <p><strong>Datum:</strong> @ViewModel.CurrentLading.Datum</p>
+            <p><strong>Tijd:</strong> @ViewModel.CurrentLading.Tijd</p>
+        </div>
+    }
+
+    <div>
+        <label>Schip Goed Gemeerd:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsSchipGoedGemeerd" />
+    </div>
+
+    <div>
+        <label>Doeltreffende Verlichting Verzekerd:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsDoeltreffendeVerlichtingVerzekerd" />
+    </div>
+
+    <div>
+        <label>Nooduitgang Vrij:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsNooduitgangVrij" />
+    </div>
+
+    <div>
+        <label>Schip Wal Verbinding Veilig:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsSchipWalVerbindingVeilig" />
+    </div>
+
+    <div>
+        <label>Laadarmen Vrij Beweegbaar:</label>
+        <InputCheckbox @bind-Value="ViewModel.ZijnLaadarmenVrijBeweegbaar" />
+    </div>
+
+    <div>
+        <label>Aansluitingen Afgeblind:</label>
+        <InputCheckbox @bind-Value="ViewModel.ZijnAansluitingenAfgeblind" />
+    </div>
+
+    <div>
+        <label>Leidingen In Goede Staat:</label>
+        <InputCheckbox @bind-Value="ViewModel.ZijnLeidingenInGoedeStaat" />
+    </div>
+
+    <div>
+        <label>Alle Kleppen Gecontroleerd:</label>
+        <InputCheckbox @bind-Value="ViewModel.ZijnAlleKleppenGecontroleerd" />
+    </div>
+
+    <div>
+        <label>Alarm Noodstop Bekend:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsAlarmNoodstopBekend" />
+    </div>
+
+    <div>
+        <label>Brandblus Apparaten Bedrijfsklaar:</label>
+        <InputCheckbox @bind-Value="ViewModel.ZijnBrandblusApparatenBedrijfsklaar" />
+    </div>
+
+    <div>
+        <label>Verwarmingsapparaten Uitgeschakeld:</label>
+        <InputCheckbox @bind-Value="ViewModel.ZijnVerwarmingsapparatenUitgeschakeld" />
+    </div>
+
+    <div>
+        <label>Rookverbod Afgekondigd:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsRookverbodAfgekondigd" />
+    </div>
+
+    <div>
+        <label>Radar En Andere Elektrische Apparaten Uit:</label>
+        <InputCheckbox @bind-Value="ViewModel.ZijnRadarEnAndereElektrischeApparatenUit" />
+    </div>
+
+    <div>
+        <label>Deuren En Ramen Gesloten:</label>
+        <InputCheckbox @bind-Value="ViewModel.ZijnDeurenEnRamenGesloten" />
+    </div>
+
+    <div>
+        <label>Overvulbeveiliging Beproefd:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsOvervulbeveiligingBeproefd" />
+    </div>
+
+    <div>
+        <label>Uitschakeling Pomp Vanaf Wal Mogelijk:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsUitschakelingPompVanafWalMogelijk" />
+    </div>
+
+    <div>
+        <label>Gasafvoerleiding Correct Aangesloten:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsGasafvoerleidingCorrectAangesloten" />
+    </div>
+
+    <div>
+        <label>Druk Gasterugvoerleiding Veilig:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsDrukGasterugvoerleidingVeilig" />
+    </div>
+
+    <div>
+        <label>Vlamkerende Inrichting Aanwezig:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsVlamkerendeInrichtingAanwezig" />
+    </div>
+
+    <div>
+        <label>Verblijftijd Vastgesteld En Gedocumenteerd:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsVerblijftijdVastgesteldEnGedocumenteerd" />
+    </div>
+
+    <div>
+        <label>Laadtemperatuur Binnen Toegestane Bandbreedte:</label>
+        <InputCheckbox @bind-Value="ViewModel.IsLaadtemperatuurBinnenToegestaneBandbreedte" />
+    </div>
+
+    <button type="submit">Submit</button>
+</EditForm>
+
+<h3>Verzonden JSON</h3>
+<pre>@ViewModel.GetChecklistJson()</pre>
+
+@code {
+    private async Task LoadLadingDetails()
+    {
+        await ViewModel.LoadLadingDetailsAsync(ViewModel.LadingId);
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await ViewModel.SubmitChecklistAsync();
+    }
+
+    protected override void OnInitialized()
+    {
+        ViewModel.PropertyChanged += (sender, args) =>
+        {
+            if (args.PropertyName == nameof(ViewModel.CurrentLading))
+            {
+                InvokeAsync(StateHasChanged);
+            }
+        };
+    }
+}
